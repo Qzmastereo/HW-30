@@ -1,0 +1,32 @@
+.bg {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: change 4s infinite;
+}
+@keyframes change {
+    0% {
+        transform: translateY(0) translateX(0);
+        background-color: red;
+    }
+
+    25% {
+        transform: translateY(200px);
+        background-color: blue;
+    }
+
+    50% {
+        transform: translateY(200px) translateX(200px);
+        background-color: green;
+    }
+
+    75% {
+        transform: translateY(0) translateX(200px);
+        background-color: yellow;
+    }
+
+    100% {
+        transform: translateY(0) translateX(0);
+        background-color: red;
+    }
+}
